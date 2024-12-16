@@ -15,29 +15,29 @@ body, html, #root, .App {
 /* Theme Variables */
 :root {
   --light-background-color: #f5f8fb;
-  --light-sidebar-color: rgba(255, 255, 255, 0.8);
+  --light-sidebar-color: rgba(255, 255, 255, 0.9);
   --light-text-color: #333;
-  --light-primary-color: #3498db;
+  --light-primary-color: #f3ba2f; /* Binance Yellow */
   --light-secondary-color: #e9eff4;
-  --light-button-color: #3498db;
-  --light-button-hover-color: #2980b9;
+  --light-button-color: #f3ba2f; /* Binance Yellow */
+  --light-button-hover-color: #c99400; /* Darker Binance Yellow */
   --light-button-text-color: #ffffff;
   --light-input-background: rgba(255, 255, 255, 0.9);
   --light-input-border: #cfd6de;
-  --light-table-header: #3498db;
+  --light-table-header: #f3ba2f;
   --light-table-row-hover: rgba(233, 239, 244, 0.5);
 
-  --dark-background-color: #1a1a1a;
-  --dark-sidebar-color: rgba(32, 32, 32, 0.8);
-  --dark-text-color: #dcdcdc;
-  --dark-primary-color: #3498db;
-  --dark-secondary-color: #2c2c2c;
-  --dark-button-color: #3498db;
-  --dark-button-hover-color: #2980b9;
-  --dark-button-text-color: #1e1e1e;
-  --dark-input-background: rgba(60, 60, 60, 0.9);
+  --dark-background-color: #0b0e11; /* Binance Dark Background */
+  --dark-sidebar-color: rgba(25, 27, 31, 0.9); /* Binance Sidebar */
+  --dark-text-color: #eaecef; /* Binance Light Text */
+  --dark-primary-color: #f3ba2f; /* Binance Yellow */
+  --dark-secondary-color: #191b1f; /* Binance Secondary */
+  --dark-button-color: #f3ba2f; /* Binance Yellow */
+  --dark-button-hover-color: #c99400; /* Darker Binance Yellow */
+  --dark-button-text-color: #0b0e11; /* Binance Button Text */
+  --dark-input-background: rgba(40, 44, 52, 0.9);
   --dark-input-border: #555;
-  --dark-table-header: #3498db;
+  --dark-table-header: #f3ba2f;
   --dark-table-row-hover: rgba(44, 44, 44, 0.5);
 }
 

@@ -29,8 +29,8 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const tokensPerPage = 10; // Her sayfada gösterilecek token sayısı
 
-  const RPC = 'https://api.harmony.one'; // Harmony RPC URL'si
-  const correctChainId = parseInt('0x63564c40', 16);
+  const RPC = 'https://bsc-dataseed.binance.org'; // Harmony RPC URL'si
+  const correctChainId = parseInt('0x38', 16);
 
 
   // Cüzdanı bağlama fonksiyonu
@@ -327,7 +327,7 @@ function App() {
       <div className="main-content">
       <header className="header">
   <div className="title-container">
-    <h1>Forge, Harmony Token Creation Tool</h1>
+    <h1>Forge, Binance Chain Token Creation Tool</h1>
     <a href="https://kilopi.net" target="_blank" rel="noopener noreferrer" className="kilopi-link">
       by Kilopi.net
     </a>
