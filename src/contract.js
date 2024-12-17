@@ -2,7 +2,7 @@
 import { BrowserProvider, Contract, JsonRpcProvider } from 'ethers';
 import contractABI from './contractABI.json';
 
-const contractAddress = '0x78C53110a4F32DeB559963f591f6bC58A61Ea131';
+const contractAddress = '0xa63c10f74a5c718Cb6045ec4B6A29609216c4976';
 const RPC = 'https://bsc-dataseed.binance.org';
 
 export const getContract = () => {

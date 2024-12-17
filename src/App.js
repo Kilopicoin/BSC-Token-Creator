@@ -29,7 +29,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const tokensPerPage = 10; // Her sayfada gösterilecek token sayısı
 
-  const RPC = 'https://bsc-dataseed.binance.org'; // Harmony RPC URL'si
+  const RPC = 'https://bsc-dataseed.binance.org'; // Binance RPC URL'si
   const correctChainId = parseInt('0x38', 16);
 
 
@@ -177,7 +177,7 @@ function App() {
       const contract = await getSignerContract();
       setIsLoading(true);
 
-      const creationFee = ethers.parseEther("970");
+      const creationFee = ethers.parseEther("0.047");
   
       const tx = await contract.createToken(
         name,
@@ -423,7 +423,7 @@ function App() {
   ) : !account ? (
     "Metamask Wallet NOT Connected"
   ) : (
-    <><FaPlusCircle /> Create Token ( Requires 1000 ONE )</>
+    <><FaPlusCircle /> Create Token ( Requires 0.06 BNB )</>
   )}
 </button>
 
