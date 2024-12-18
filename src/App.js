@@ -327,7 +327,7 @@ function App() {
       <div className="main-content">
       <header className="header">
   <div className="title-container">
-    <h1>Forge, Binance Chain Token Creation Tool</h1>
+    <h1>Forge, Binance Smart Chain Token Creation Tool</h1>
     <a href="https://kilopi.net" target="_blank" rel="noopener noreferrer" className="kilopi-link">
       by Kilopi.net
     </a>
