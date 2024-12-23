@@ -523,12 +523,12 @@ function App() {
 
     <tr>
         
-        <td><a href="https://youtu.be/laMTRSxHGGg?si=tpekbXeVgST6DbCJ" target="_blank" rel="noopener noreferrer" className="link">Türkçe Anlatım Videosu</a></td>
+        <td><a href="https://youtu.be/jp06exIiXss?si=7waCYeskZgitQmLc" target="_blank" rel="noopener noreferrer" className="link">Türkçe Anlatım Videosu</a></td>
       </tr>
 
       <tr>
         
-        <td><a href="https://youtu.be/mWeYT9k733I?si=9BGJLgs-3FfdpdZR" target="_blank" rel="noopener noreferrer" className="link">English Tutorial Video</a></td>
+        <td><a href="https://youtu.be/EJq6NGFzpJ8?si=BOhrSBj1moyaTaxi" target="_blank" rel="noopener noreferrer" className="link">English Tutorial Video</a></td>
       </tr>
       
                   </tbody>
